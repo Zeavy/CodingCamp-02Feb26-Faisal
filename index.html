@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To do list</title>
+<meta charset="UTF-8" />
+<title>To Do List</title>
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    
+<div class="container">
+<h1>To Do List</h1>
+
+
+<div class="form-area">
+<input type="text" id="taskName" placeholder="Nama kegiatan" />
+<input type="date" id="taskDate" />
+<button id="addBtn">+</button>
+</div>
+
+
+<input type="text" id="filter" placeholder="Filter tugas..." />
+
+
+<table>
+<thead>
+<tr>
+<th>Kegiatan</th>
+<th>Tanggal</th>
+<th>Aksi</th>
+</tr>
+</thead>
+<tbody id="todoBody"></tbody>
+</table>
+</div>
+
+
+<script src="js/script.js"></script>
 </body>
 </html>
