@@ -2,17 +2,22 @@ body {
 width: 80%;
 margin: 40px auto;
 text-align: center;
+background-color: rgba(0, 179, 255, 0.514);
 }
 
 
-h1 { margin-bottom: 20px; }
+h1 { margin-bottom: 25px; }
 
 
 .form-area {
-display: flex;
+display:inline-block;
+padding: 10px;
+border-radius: 10px;
+background: rgba(255, 255, 255, 0.753);
 justify-content: center;
 gap: 10px;
 margin-bottom: 15px;
+box-shadow: #000000 0 4px 10px;
 }
 
 
@@ -24,10 +29,11 @@ border: none;
 
 
 button {
-background: #0066cc;
+background: #1389ff;
 color: white;
 font-weight: bold;
 cursor: pointer;
+
 }
 
 
@@ -35,21 +41,28 @@ button:hover { background: #0052a3; }
 
 
 #filter {
-width: 60%;
-margin-bottom: 15px;
+margin-top: 30px;
+width: 330px;
+margin-bottom: 34px;
+box-shadow: 0 4px 10px #000000;
+border-collapse: collapse;
+
 }
 
 
 table {
 width: 100%;
 border-collapse: collapse;
-background: rgba(255,255,255,0.1);
+background: rgba(22, 46, 45, 0.756);
+box-shadow: 0 4px 10px rgb(0, 0, 0);
+border-radius: 8px;
+
 }
 
 
 th, td {
 padding: 10px;
-border-bottom: 1px solid rgba(255,255,255,0.2);
+border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 
